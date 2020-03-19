@@ -8,7 +8,7 @@ Source code for this is in *source/main_shift.py*
 ### Second task:
 
 Run docker-compose up and send post request **{"data": image_file}**
-to the **http://localhost:8000/app/predict/**. 
+to the **http://localhost:8000/app/predict/**, where image size is **20x20**. 
 It returns predicted class and confidence.d
 
 Source code for this is in models.
