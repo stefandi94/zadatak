@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  image_predictor:
+    build:
+      context: ./
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - 8000:8000
